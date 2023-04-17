@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./src/Web\ 1920\ –\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    background-color: #262626;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.mobile-menu,
+.default-layout {
+    display: none;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.column2,
+.column3 {
+    justify-content: space-evenly;
+}
+
+.column2 a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.column2 a:first-child {
+    color: #088395;
+    font-size: 18px;
+}
+
+.column3 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* responsive */
+
+@media (max-width:830px) {
+    .menu {
+        display: none;
+    }
+    .default-layout {
+        display: flex;
+    }
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 0px;
+        background-color: #212020;
+        width: 100%;
+        height: 100vh;
+    }
+    .cover {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .mobile-menu .column2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .top-x {
+        text-align: right;
+    }
+    .top-x svg {
+        padding-right: 20px;
+    }
+    .default-layout {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 100px;
+        background-color: #262626;
+    }
+}
+
+@media (max-width:500px) {
+    .mobile-menu .column2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
