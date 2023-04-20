@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./general.css">
     <link rel="stylesheet" href="./home.css" class="home_css">
+    <link rel="stylesheet" href="./about.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +19,10 @@
             <img src="./src/M.T.H.O.png" alt="Mthobisi">
         </div>
         <div class="column2 column">
-            <a href="">HOME</a>
-            <a href="">ABOUT ME</a>
-            <a href="">SERVICES</a>
-            <a href="">CONTACT ME</a>
+            <a onclick="ChangeBgBtn(this)" class="btn-menu">HOME</a>
+            <a onclick="ChangeBgBtn(this)" class="btn-menu">ABOUT ME</a>
+            <a onclick="ChangeBgBtn(this)" class="btn-menu">SERVICES</a>
+            <a onclick="ChangeBgBtn(this)" class="btn-menu">CONTACT ME</a>
         </div>
         <div class="column3 column">
             <a href="">
@@ -110,16 +113,16 @@
         </div>
 
     </div>
-    <div class="body-home">
+    <div class="body-home home_page">
         <div class="flex">
-            <img src="./src/Group 4.png" alt="">
+            <img src="./src/Group 4.png" alt="" class="anim_roll">
             <p class="text">
                 As a naturally curious researcher, I thrive on completing projects and excel at managing my time effectively. My commitment to continuous learning ensures that I remain up-to-date with the latest in-demand tech skills, making me a strong candidate for
                 any opportunity.
             </p>
             <div class="space"></div>
             <div class="btns">
-                <p>ABOUT ME</p>
+                <p onclick="ChangeBgBtn(this)">ABOUT ME</p>
                 <p>CV</p>
             </div>
         </div>
@@ -127,7 +130,20 @@
             <img src="./src/Group 5.png" alt="">
         </div>
     </div>
+    <div class="body-home about_page">
+        <div class="row-layout">
+            <div class="column-unique">
+                <img src="./src/Group 14.png" alt="">
+                <p class="text_t">As a naturally curious researcher, I thrive on completing projects and excel at managing my time effectively. My commitment to continuous learning ensures that I remain up-to-date with the latest in-demand tech skills, making me a strong
+                    candidate for any opportunity.</p>
+            </div>
+            <div class="column-unique-2">
+                <img src="./src/my_j.png" alt="">
+            </div>
+        </div>
+    </div>
     <script src="./menu.js"></script>
+    <script src="./jqueryFunctions.js"></script>
 </body>
 
 </html>

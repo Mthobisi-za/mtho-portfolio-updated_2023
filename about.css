@@ -1,0 +1,39 @@
+.about_page {
+    display: none;
+    width: 100%;
+}
+
+.row-layout {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    justify-content: space-evenly;
+}
+
+.column-unique {
+    background-image: url('./src/bg_desk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+    min-height: 60vh;
+    border-radius: 30px;
+}
+
+.column-unique img {
+    width: 60%;
+}
+
+.column-unique .text_t {
+    color: #ffff;
+}
+
+.column-unique-2 {
+    background-image: url('./src/bg_desk_2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 20px;
+    border-radius: 30px;
+    text-align: center;
+}

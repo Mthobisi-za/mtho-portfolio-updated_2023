@@ -122,3 +122,16 @@ a {
         row-gap: 40px;
     }
 }
+
+
+/* other general css */
+
+.body-home {
+    height: 89vh;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* other general css */
