@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./general.css">
     <link rel="stylesheet" href="./home.css" class="home_css">
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./projects.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,14 +137,69 @@
                 <img src="./src/Group 14.png" alt="">
                 <p class="text_t">As a naturally curious researcher, I thrive on completing projects and excel at managing my time effectively. My commitment to continuous learning ensures that I remain up-to-date with the latest in-demand tech skills, making me a strong
                     candidate for any opportunity.</p>
+                <div class="skills-bt-section">
+                    <img onclick="Close('skills')" src="./src/skills.png" alt="">
+                </div>
+                <div class="skills">
+                    <div class="skills-content">
+                        <div class="right-align">
+                            <svg onclick="Close('skills')" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-letter-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <line x1="7" y1="4" x2="17" y2="20" />
+                                <line x1="17" y1="4" x2="7" y2="20" />
+                              </svg>
+                        </div>
+                        <div class="left_align">
+                            <select name="" id="" class="select" onchange="change()">
+                                <option value="All">All</option>
+                                <option value="Front end developer">Front end Developer</option>
+                                <option value="Back end developer">Back end Developer</option>
+                            </select>
+                            <div class="all_skills_container">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="column-unique-2">
-                <img src="./src/my_j.png" alt="">
+                <br>
+                <img src="./src/my_j.png" alt="" class="journey">
+                <br> <br>
+                <div class="img-texts">
+                    <img src="./src/Group 17.png" alt="">
+                    <img src="./src/Group 18.png" alt="">
+                    <img src="./src/Group 19.png" alt="">
+                </div>
+                <div class="inherit">
+                    <img onclick="Open('projects')" src="./src/Group 10.png" alt="" style="padding-bottom: 20px;">
+                </div>
+
+            </div>
+            <div class="projects">
+                <div class="projects_container">
+                    <div class="icon-holder" style="width: 90%;margin: auto;text-align: right;">
+                        <svg onclick="close_x('projects')" style="padding-top: 20px;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-letter-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="7" y1="4" x2="17" y2="20" />
+                            <line x1="17" y1="4" x2="7" y2="20" />
+                        </svg>
+                    </div>
+                    <br> <br>
+                    <div class="actual-container">
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+
     <script src="./menu.js"></script>
     <script src="./jqueryFunctions.js"></script>
+    <script src="./skills.js"></script>
+    <script src="./add_projects.js"></script>
 </body>
 
 </html>

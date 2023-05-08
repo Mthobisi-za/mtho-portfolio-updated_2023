@@ -1,0 +1,71 @@
+.projects {
+    width: 100%;
+    background-image: url('./src/bg_tra.png');
+    position: absolute;
+    bottom: 0px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects_container {
+    width: 80%;
+    min-height: 80vh;
+    background-image: url('./src/bg_desk.png');
+    margin: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.actual-container {
+    width: 90%;
+    margin: auto;
+    overflow: scroll;
+    max-height: 70vh;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 5%;
+    row-gap: 40px;
+    padding-bottom: 40px;
+}
+
+.project-item {
+    background-color: #fff;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-radius: 30px;
+}
+
+.project-item img {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.text-p {
+    padding-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.project-skills {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-skills p {
+    width: 30%;
+}
+
+.btns_projects {
+    width: 90%;
+    margin: auto;
+}
+
+.btns_projects p {
+    padding: 10px;
+    background-color: #434343;
+    border-radius: 30px;
+    text-align: center;
+}

@@ -4,7 +4,7 @@ body {
     background-image: url('./src/Web\ 1920\ –\ 4.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 * {
@@ -127,7 +127,7 @@ a {
 /* other general css */
 
 .body-home {
-    height: 89vh;
+    min-height: 89vh;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
