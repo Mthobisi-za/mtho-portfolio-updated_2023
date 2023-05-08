@@ -27,7 +27,13 @@ function displayCotactPage() {
 }
 
 function ChangeBgBtn(event) {
+    document.querySelector('.mobile-menu').style.display = 'none';
     var classes = document.querySelectorAll('.btn-menu');
+    classes.forEach(ele => {
+        ele.style.color = 'white';
+
+    });
+    var classesMobile = document.querySelectorAll('.m-bt');
     classes.forEach(ele => {
         ele.style.color = 'white';
 
@@ -43,4 +49,5 @@ function ChangeBgBtn(event) {
     else if (event.innerText === 'ABOUT ME') displayAboutPage()
     else if (event.innerText === 'SERVICES') displayServicesPage()
     else if (event.innerText === 'CONTACT ME') displayCotactPage()
+    document.querySelectorAll('.mobile-menu').style.display = 'none';
 }

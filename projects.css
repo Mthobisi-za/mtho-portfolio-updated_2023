@@ -69,3 +69,17 @@
     border-radius: 30px;
     text-align: center;
 }
+
+@media (max-width:830px) {
+    .projects {
+        top: 0vh;
+    }
+    .actual-container {
+        grid-template-columns: 70%;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+/* resposive */
