@@ -1,0 +1,2 @@
+
+'async-storage','firebase','React Navigation','axios','expo','native notify','react','react native','HTML','CSS','JAVASCRIPT'

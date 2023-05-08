@@ -3,7 +3,7 @@ const data_projects = [
     { project: 'Ocean App', skills: ['Jquery', 'CSS', 'JavaScript', 'HTML', 'BootStrap'], github: 'https://github.com/Mthobisi-za/ocean-responsive', site: 'https://mthobisi-za.github.io/ocean-responsive/', status: 'done', image: './src/projects/3.png' },
     { project: 'Soweto Fast Food', skills: ['Jquery', 'CSS', 'JavaScript', 'HTML', 'BootStrap', 'NodeJs', 'Handlebars', 'Express'], github: 'https://github.com/Mthobisi-za/soweto-fast-food-market', site: 'https://sowetoffmarket.netlify.app/', status: 'in-progress', image: './src/projects/4.png' },
     { project: 'Tswara Ekac Security', skills: ['Jquery', 'CSS', 'JavaScript', 'HTML', 'BootStrap', 'Express', 'Firebase Firestore'], github: 'https://github.com/Mthobisi-za/tswara-community-website', site: 'https://tswaraekacsecurity.co.za/', status: 'done', image: './src/projects/5.png' },
-    //{ project: 'Tswara Ekac Security APP', skills: [] },
+    { project: 'Tswara Ekac Security APP', skills: ['async-storage', 'firebase', 'React Navigation', 'axios', 'expo', 'native notify', 'react', 'react native', 'HTML', 'CSS', 'JAVASCRIPT'], github: '', image: './src/projects/tswara.png', site: 'https://play.google.com/store/apps/details?id=com.mthosasa.thwaracommunityalarm' },
     // { project: 'KST', skills: [] },
     // { project: 'KST', skills: [] },
     // { project: 'KST', skills: [] }
